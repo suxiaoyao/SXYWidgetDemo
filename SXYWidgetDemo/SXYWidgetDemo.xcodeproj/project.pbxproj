@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373536011EE1633300C52359 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 373536001EE1633300C52359 /* main.m */; };
+		373536041EE1633300C52359 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 373536031EE1633300C52359 /* AppDelegate.m */; };
+		373536071EE1633300C52359 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373536061EE1633300C52359 /* ViewController.m */; };
+		3735360A1EE1633300C52359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373536081EE1633300C52359 /* Main.storyboard */; };
+		3735360C1EE1633300C52359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3735360B1EE1633300C52359 /* Assets.xcassets */; };
+		3735360F1EE1633300C52359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3735360D1EE1633300C52359 /* LaunchScreen.storyboard */; };
+		3735361D1EE163C300C52359 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3735361C1EE163C300C52359 /* NotificationCenter.framework */; };
+		373536211EE163C300C52359 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373536201EE163C300C52359 /* TodayViewController.m */; };
+		373536281EE163C300C52359 /* SXYWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3735361A1EE163C300C52359 /* SXYWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		373536261EE163C300C52359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373535F41EE1633300C52359 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 373536191EE163C300C52359;
+			remoteInfo = SXYWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3735362C1EE163C300C52359 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				373536281EE163C300C52359 /* SXYWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		373535FC1EE1633300C52359 /* SXYWidgetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SXYWidgetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		373536001EE1633300C52359 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		373536021EE1633300C52359 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		373536031EE1633300C52359 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		373536051EE1633300C52359 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		373536061EE1633300C52359 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		373536091EE1633300C52359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3735360B1EE1633300C52359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3735360E1EE1633300C52359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		373536101EE1633300C52359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3735361A1EE163C300C52359 /* SXYWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SXYWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3735361C1EE163C300C52359 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		3735361F1EE163C300C52359 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		373536201EE163C300C52359 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		373536251EE163C300C52359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373535F91EE1633300C52359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373536171EE163C300C52359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3735361D1EE163C300C52359 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373535F31EE1633300C52359 = {
+			isa = PBXGroup;
+			children = (
+				373535FE1EE1633300C52359 /* SXYWidgetDemo */,
+				3735361E1EE163C300C52359 /* SXYWidget */,
+				3735361B1EE163C300C52359 /* Frameworks */,
+				373535FD1EE1633300C52359 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		373535FD1EE1633300C52359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373535FC1EE1633300C52359 /* SXYWidgetDemo.app */,
+				3735361A1EE163C300C52359 /* SXYWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373535FE1EE1633300C52359 /* SXYWidgetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				373536021EE1633300C52359 /* AppDelegate.h */,
+				373536031EE1633300C52359 /* AppDelegate.m */,
+				373536051EE1633300C52359 /* ViewController.h */,
+				373536061EE1633300C52359 /* ViewController.m */,
+				373536081EE1633300C52359 /* Main.storyboard */,
+				3735360B1EE1633300C52359 /* Assets.xcassets */,
+				3735360D1EE1633300C52359 /* LaunchScreen.storyboard */,
+				373536101EE1633300C52359 /* Info.plist */,
+				373535FF1EE1633300C52359 /* Supporting Files */,
+			);
+			path = SXYWidgetDemo;
+			sourceTree = "<group>";
+		};
+		373535FF1EE1633300C52359 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				373536001EE1633300C52359 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3735361B1EE163C300C52359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3735361C1EE163C300C52359 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3735361E1EE163C300C52359 /* SXYWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3735361F1EE163C300C52359 /* TodayViewController.h */,
+				373536201EE163C300C52359 /* TodayViewController.m */,
+				373536251EE163C300C52359 /* Info.plist */,
+			);
+			path = SXYWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		373535FB1EE1633300C52359 /* SXYWidgetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373536131EE1633300C52359 /* Build configuration list for PBXNativeTarget "SXYWidgetDemo" */;
+			buildPhases = (
+				373535F81EE1633300C52359 /* Sources */,
+				373535F91EE1633300C52359 /* Frameworks */,
+				373535FA1EE1633300C52359 /* Resources */,
+				3735362C1EE163C300C52359 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373536271EE163C300C52359 /* PBXTargetDependency */,
+			);
+			name = SXYWidgetDemo;
+			productName = SXYWidgetDemo;
+			productReference = 373535FC1EE1633300C52359 /* SXYWidgetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		373536191EE163C300C52359 /* SXYWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373536291EE163C300C52359 /* Build configuration list for PBXNativeTarget "SXYWidget" */;
+			buildPhases = (
+				373536161EE163C300C52359 /* Sources */,
+				373536171EE163C300C52359 /* Frameworks */,
+				373536181EE163C300C52359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SXYWidget;
+			productName = SXYWidget;
+			productReference = 3735361A1EE163C300C52359 /* SXYWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		373535F41EE1633300C52359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = doshr;
+				TargetAttributes = {
+					373535FB1EE1633300C52359 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					373536191EE163C300C52359 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 373535F71EE1633300C52359 /* Build configuration list for PBXProject "SXYWidgetDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 373535F31EE1633300C52359;
+			productRefGroup = 373535FD1EE1633300C52359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				373535FB1EE1633300C52359 /* SXYWidgetDemo */,
+				373536191EE163C300C52359 /* SXYWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373535FA1EE1633300C52359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3735360F1EE1633300C52359 /* LaunchScreen.storyboard in Resources */,
+				3735360C1EE1633300C52359 /* Assets.xcassets in Resources */,
+				3735360A1EE1633300C52359 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373536181EE163C300C52359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373535F81EE1633300C52359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373536071EE1633300C52359 /* ViewController.m in Sources */,
+				373536041EE1633300C52359 /* AppDelegate.m in Sources */,
+				373536011EE1633300C52359 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373536161EE163C300C52359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373536211EE163C300C52359 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373536271EE163C300C52359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 373536191EE163C300C52359 /* SXYWidget */;
+			targetProxy = 373536261EE163C300C52359 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		373536081EE1633300C52359 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373536091EE1633300C52359 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3735360D1EE1633300C52359 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3735360E1EE1633300C52359 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373536111EE1633300C52359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		373536121EE1633300C52359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		373536141EE1633300C52359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SXYWidgetDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doshr.SXYWidgetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		373536151EE1633300C52359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SXYWidgetDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doshr.SXYWidgetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3735362A1EE163C300C52359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SXYWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doshr.SXYWidgetDemo.SXYWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3735362B1EE163C300C52359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SXYWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doshr.SXYWidgetDemo.SXYWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373535F71EE1633300C52359 /* Build configuration list for PBXProject "SXYWidgetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373536111EE1633300C52359 /* Debug */,
+				373536121EE1633300C52359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373536131EE1633300C52359 /* Build configuration list for PBXNativeTarget "SXYWidgetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373536141EE1633300C52359 /* Debug */,
+				373536151EE1633300C52359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		373536291EE163C300C52359 /* Build configuration list for PBXNativeTarget "SXYWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3735362A1EE163C300C52359 /* Debug */,
+				3735362B1EE163C300C52359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 373535F41EE1633300C52359 /* Project object */;
+}
